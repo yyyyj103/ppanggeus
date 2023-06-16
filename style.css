@@ -1265,9 +1265,6 @@ article{
         transform: translateY(10px);
     }
 }
-.info:hover img{
-opacity: 0.3;
-}
 
 footer{
     height: 250px;
