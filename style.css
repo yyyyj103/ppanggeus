@@ -1229,7 +1229,7 @@ article{
     width: 80%;
 }
 #information .info{
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 }
 #information h2{
@@ -1240,25 +1240,15 @@ article{
 #comment{
     width: 100%;
     text-align: center;
-    font-family: 'Binggrae';
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 110%;
     font-size: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     line-height: 200%;
     pointer-events: none;
-}
-#cm1, #cm2, #cm3{
-    display: none;
-}
-.info:hover #comment{
-    display: block;
-}
-.info:hover #comment {
-    display: flex;
 }
 .info img{
     animation: comment 1.5s infinite;
@@ -1278,12 +1268,6 @@ article{
 .info:hover img{
 opacity: 0.3;
 }
-/* #cm1{
-    margin-right: 66%;
-}
-#cm3{
-    margin-left: 67%;
-} */
 
 footer{
     height: 250px;
@@ -1291,6 +1275,7 @@ footer{
 }
 footer article{
     margin: 0 50px;
+    position: relative;
 }
 footer img{
     width: 70px;
@@ -1309,17 +1294,34 @@ footer h2 span{
 footer img, footer h2{
     vertical-align: middle;
 }
-footer p{
-    font-size: 20px;
+#mail{
+    font-size: 15px;
     font-weight: bold;
     color: #4A4A4A;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 footer h3{
     font-size: 20px;
     margin-top: 1.5%;
     color: #FD6A8D;
 }
+#sss1, #sss2, #sss3{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    bottom: 0;
+    font-size: 10px;
+}
+#sss3{
+    font-size: 15px;
+}
+#sss2{
+    bottom: 40px;
+}
+#sss1{
+    bottom: 90px;
+}
+
 
 .animateOut{
     opacity: 0;
